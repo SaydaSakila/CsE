@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurriculumActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/computerlab"
+            android:gravity="bottom"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="bottom"
+                android:text="CURRICULUM"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center_horizontal"
+                android:background="#800000"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/objectivelayer"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration of Study"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The minimum requirement for BCSE degree is 146 credit hours plus such courses as may be prescribed on the basis of individual competency and requires 4 years to complete for a full time student. It is possible to graduate earlier with additional course load. A semester is of 16 weeks duration, and there are 3 semesters in a year and as such, a full time student can complete the degree requirements earlier. However, most students take 4 years to complete the program."
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Program of Study"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The BCSE program is designed to give full exposition to participants on computer science and engineering emphasizing on theory and laboratory based research and development in the areas of computation, algorithm, data structure, computer elements, artificial intelligence, digital and logic design, compiler construction, computer architecture and organization, industrial automation, robotics, circuit analyses, signal processing and systems, database systems, electronics, human-machine interface, interactive system engineering, operating systems, programming fundamentals, software engineering, computer networking, wireless communication, fault diagnostic and tolerant system, parallel and distributed computing, digital control engineering, microprocessors, microware engineering, programming languages, electric and electronic machines, power electronics, process control and instrumentation, computer graphics, data acquisition systems, internet and web programming, hardware engineering , PC interfacing and process control."
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center_horizontal"
+                android:background="#800000"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/network"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprehensive"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The comprehensive is conducted for students who have satisfactorily completed all the courses of the program."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The objective of the comprehensive is to test the student’s capability to comprehend the entire program."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It consists of a written test of three hours, a practical session and an oral examination which is conducted by a board consisting of academics and practitioners."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The comprehensive is graded and the students must obtain a passing grade to qualify."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The students must take comprehensive to fulfill the requirements of the program."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The comprehensive is a pre-requisite to practicum."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Program Fees"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IUBAT assesses fees for students on credit hour basis.  Fees and refundable library and laboratory deposits in details have been provided in the financial information section of this bulletin."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This section also provides information on financing arrangement including merit-scholarships at the point of admission, in-course fee waiver scholarship, different scholarships, on-campus work opportunities, financial assistance in the form of grants, installment payment, deferred payment student loan etc. The standing IUBAT policy to cater to needs of all qualified students who aspire for higher professional education regardless of the income level of his/her family through appropriate educational financing arrangement under the concept Knowledge Based Area Development: A Step Towards Community Self-Reliance applies to BCSE program."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Financial Information section also contains information on tuition fees for international students and special fees for students from SAARC countries and Least Developed Countries (LDC) of Asia and Africa."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center_horizontal"
+                android:background="#800000"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/idea"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Practicum"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-IUBAT CSE places great emphasis on the value of practical work experience in all professional degree programs."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-The practicum helps accomplish this role of providing maturity of knowledge to the students through work experience in real life organizations and thus undergoing specialization training in computer based operations in the area of software and/or hardware."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Procedurally, after a student completes his/her requisite courses, IUBAT CSE places a student as an internee with suitable organizations. This practicum is an integral component of CSE program and is assigned 6 credit hours."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requirements for Graduation"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The BCSE degree will be conferred only to the student who has fully complied with the graduation requirements and has applied for it. The requirements are that the student has:"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Completed all the prescribed courses with a minimum of 143 credit hours plus such courses recommended by the department after reviewing individual background.\n-Earned at least ‘C’ grades in each of the core, specialization courses, and English courses\n-Earned at least passing grade (D) in each of the remaining courses\n-Fulfillment of English language requirementthrough English Language Competency Test (ELCT).\n-Earned a cumulative grade point average (CGPA) of 2.5\n-Earned at least a passing grade in the practicum\n-Earned at least a passing grade in the comprehensive\n-Satisfactory behavior and discipline\n-Library and financial clearance from the college and the university"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Offerings"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="+ Humanities and Social Sciences \n+  Electives \n+  Physical Sciences \n+  Engineering Courses \n+  BCSE CORE \n+  Electives \n+ Suggested Course Sequence : Semester 1 \n+ Suggested Course Sequence : Semester 2 \n+ Suggested Course Sequence : Semester 3 \n+ Suggested Course Sequence : Semester 4 \n "
+            android:textColor="#000000" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="+ Suggested Course Sequence : Semester 5 \n+ Suggested Course Sequence : Semester 6\n+ Suggested Course Sequence : Semester 7\n+ Suggested Course Sequence : Semester 8\n+ Suggested Course Sequence : Semester 9\n+ Suggested Course Sequence : Semester 10\+ Suggested Course Sequence : Semester 11\n+ Suggested Course Sequence : Semester 12"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notes"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-The total credit hours requirement for the degree has been decided at 139 plus such courses as may be prescribed on the basis of review of individual backgrounds.\n-ENG 101 is a remedial course and those having proficiency in beginning English can have exemptions on the basis of earlier accomplishment on record and demonstration of competency through examination.\n-MAT 167 requires a basic mathematics competency and those who cannot meet its requirements will be required to undergo one or more course(s) in mathematics such as MAT107– Mathematics and/or MAT 147- Applied Calculus.\n-CSE 103 and CSE 104 courses are introductory in nature and can be exempted on the basis of earlier accomplishment on record and demonstration of competency through examination.\n-PHY 112 and PHY 113 are the beginning Physics courses and may qualify for exemption on the basis of earlier accomplishment on record and demonstration of competency through examination.\n-CHM 115 and CHM 116 are the beginning Chemistry courses and may qualify for exemption on the basis of earlier accomplishment on record and demonstration of competency through examination.\nCourse Customization for Students with Polytechnic Diploma in Computer Science and Engineering"
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Students with polytechnic diploma in computer science and engineering may have course waiver for 20 credit hours based on earlier accomplishment on record and through a standard test and viva. The courses that qualify for waiver are 1. ENG 101 Basic English Composition [4], 2. MAT 107 Mathematics [4], 3. PHY 112 General Physics [3], 4.PHY 113 Physics Lab [1], 5.CHM 115 General Chemistry [3], 6. CHM 116 Chemistry Lab [1], 7. CSE 103 Fundamentals of Computer and Applications [3], and 8.CSE 104 Computer Applications Lab [1]. Such waived courses will be treated as “EXEMPTED COURES” in the final Transcript.\n-Such diploma holders may also have class waiver for eleven credit hours involving 1. CSE 183 Programming in C [3.0], 2.CSE 184 Programming in C Lab [1.0], 3.MAT 147 Applied Calculus [3.0], 4. EEN 183 Circuit Analysis 1 [3.0] and 5. EEN 184 Circuit Analysis 1 Lab [1.0]. Registration in these courses and appearing in all examinations are required but the students may have the option of not attending the classes. All these courses will be treated as “REGULAR COURES” with grades obtained recorded in the final Transcript.\nIn the light of the above, entry level qualification and background of an applicant as well as his/her competence, the course requirements for the concerned student in the BCSE program will be customized."
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Explanations"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The total credit hours requirement for the degree has been decided at 141 plus such courses as may be prescribed on the basis of review of individual backgrounds."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHY 109, PHY 110, CHM 115 and CHM 116 are available for exemption on the basis of competency.  ENG 101 is also available for exemption on the basis of competency.  MAT 107 Mathematics may have to be added for those who cannot meet the requirement of MAT 147.  CSE 103 and CSE 104 may qualify for exemption on the basis of competency."
+                android:textColor="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In the light of the above, background of an applicant and his/her competence, the course requirements for the concerned student in the BCSE program will be customized."
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descriptions of Courses"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description of computer courses is given below, while the descriptions of the courses of other areas can be found under respective colleges."
+                android:textColor="#000000" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="+ CSE 103 FUNDAMENTALS OF COMPUTERS AND APPLICATIONS [3]\n
++ CSE 104 COMPUTER APPLICATIONS LAB [1]\n
++ CSE 151 Visual Basic\n
++ CSE 152 Visual Basic Lab\n
++ CSE 183 PROGRAMMING (C) [3]\n
++ CSE 184 PROGRAMMING LAB [1]\n
++ CSE 197 ASSEMBLY LANGUAGE [3]\n
++ CSE 232 ELECTRONICS AND DIGITAL LAB [1]\n
++ CSE 247 COMPUTER ORGANIZATIONS AND ARCHITECTURE [3]\n
++ CSE 231 FUNDAMENTALS OF ELECTRONICS and DIGITAL SYSTEMS [3]\n
++ CSE 284 Programming LAB [1]\n
++ CSE 283 PROGRAMMING (C++) [3]\n
++ CSE 461 PROGRAMMING LANGUAGES AND STRUCTURES [3]\n
++ CSE 307 OPERATING SYSTEMS [3]\n
++ CSE 329 LOGIC DESIGN and SWITCHING CIRCUITS [3]\n
++ CSE 347 COMPUTER HARDWARE AND MAINTENANCE [2]\n
++ CSE 383 PROGRAMMING (JAVA/J++) [3]\n
++ CSE 330 LOGIC LAB [1]\n
++ CSE 348 HARDWARE LAB [2]\n
++ CSE 387 SYSTEM ANALYSIS AND DESIGN [3]\n
++ CSE 384 PROGRAMMING (JAVA/J++) [1]\n
++ CSE 391 DATA STRUCTURES AND ALGORITHMS [4]\n
++ CSE 394: Web Page Designing Lab [1]\n
++ CSE 393: Web Page Designing [3]\n
++ CSE 395: e-Commerce Management [3]\n
++ CSE 397 THEORY OF COMPUTATION [4]\n
++ CSE 406 Wireless and Mobile Communication Networks [3]"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:paddingLeft="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="+ CSE 434 Database Management System Lab [1]\n
++ CSE 433 DATABASE MANAGEMENT SYSTEMS [3]\n
++ CSE 437 COMPILER DESIGN [3]\n
++ CSE 439 VISUAL PROGRAMMING [3]\n
++ CSE 455 COMPUTER GRAPHICS [3]\n
++ CSE 440 VISUAL PROGRAMMING [1]\n
++ CSE 465 DATA COMMUNICATION AND COMPUTER NETWORKS [3]\n
++ CSE 466 NETWORK LAB [1]\n
++ CSE 469 SOFTWARE ENGINEERING [3]\n
++ CSE 470 SOFTWARE ENGINEERING LAB [1]\n
++ CSE490 PRACTICUM [9]\n
++ CSE 401 MICROPROCESSOR INTERFACING FOR MEASUREMENT AND CONTROL [3]\n
++ CSE 407 MICROCOMPUTER ARCHITECTURE DESIGN [3]\n
++ CSE 441 INTRODUCTION TO FUCTIONAL AND LOGIC PROGRAMMING [3]\n
++ CSE 451 MANAGEMENT INFORMATION SYSTEM [3]\n
++ CSE 443 SYSTEM PROGRAMMING [3]\n
++ CSE 447 OPERATIONS RESEARCH [3]\n
++ CSE 471 MICROPROCESSOR BASED SYSTEMS DESIGN [3]\n
++ CSE 490 PRACTICUM [9]\n
++ CSE 473 SYSTEM MODELING AND SIMULATION [3]\n
++ CSE 481 VLSI DESIGN [3]\n
++ CSE 483 ARTIFICIAL INTELLIGENCE AND EXPERT SYSTEM [3]\n
++ CSE 485 INTRODUCTION TO COMPUTER VISION [3]\n
++ CSE 487 REAL TIME PROGRAMMING [3]\n
++ CSE 489 SELECTED ADVANCED TOPICS [3]\n"
+                            android:textColor="#000000" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#002366"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="wrap_content"
+                android:background="#002366"
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                android:text="Laboratories" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Career \nProspects" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Tuition \nand Fees" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Student \nSociety" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT— International University of Business Agriculture and Technology"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

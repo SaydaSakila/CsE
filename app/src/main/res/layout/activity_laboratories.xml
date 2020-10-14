@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaboratoriesActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/computerlab"
+                android:gravity="bottom"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:gravity="bottom"
+                    android:text="LABORATORIES"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CSE Laboratories"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="IUBAT CSE intensively laboratory oriented. IUBAT CSE believes without having any hands-on experience a student cannot learn the subject-matter.  Keeping this in mind, from the very beginning, IUBAT CSE has established rich laboratories. As IUBAT has no budget limit for develop and improve laboratories, each and every semester IUBAT CSE is upgrading and improving laboratories."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physics Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with various types of apparatus such as calorimeters, post office box, meter bridge, potentiometer, polar meter, compound pendulum, microscope, sonometer, optical bench, traveling microscope, resistance boxes, rheostats of various ranges, slide calipers, screw gauges, capillary tubes, Searle’s apparatus, conductors, viscosity measurement apparatus, galvanometers, voltmeters, ammeters, multimeters and so on."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Electronics Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with various types of analog trainer boards, oscilloscopes, dc power sources, function generators, multimeter, milliammeter, microammeter, LCR meters etc. Besides, in this laboratory we have wide ranges of resistors, capacitors, inductors, VRs, diodes, transistors, MOSFETs, analog ICs etc. Students are engaged in doing experiments on study of semiconductor device characteristics, voltage regulator circuit, rectifier circuit; adder, integrator and differentiator circuit using linear op-amp IC etc. Besides, students build project on CE/CC amplifier, power amplifier, communication circuits such as, Amplitude and Frequency Modulation and Demodulation circuit, PLL circuit, digital trainer board, FPGA training kit of MDA-ASIC2, logic probe, IC tester, IC extractor, digital meters, data switches, and wide ranges of digital ICs of TTL and CMOS series. Synchronous Transmitter- Receiver System, Data converter, Multiplier, digital voltmeter, traffic light controller using verilog HDL and so on."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Microprocessor and Interfacing Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with six 8086 microprocessor trainer kit, Pentium IV microcomputer, memory ICs and interface devices. Here the IUBAT CSE students are taught primarily about assembly language programming and they do small programs in PC using Microsoft assembler program. They are also taught how to generate hex code of the assembly program and input it to the 8086 microprocessor kit both manually and through serial port from the microcomputer. Besides, students do projects on microprocessor and PC based DC motor and stepper motor controls, control of different electrical appliances through relay, display different patterns on LED, seven-segment display and dot-matrix display."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Communication Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with analog and digital data communication tools. The IUBAT CSE students are doing experiments on AM, FM, PCM, QPSK, ASK, FSK, GMSK, BER calculation, TDM, TDMA, CDMA etc. using ‘Communication Toolbox’ of MATLAB. From the TIMS equipment, students are using the phase shifters, VCO, twin pulse generator, analog switch, sequence generator, audio oscillator, optical fiber etc. for doing different experiments and these experimental data are being analyzed using MATLAB programs. Besides, students have to do experiments using OPNET and PACKET TRACER software."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Networks Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with all kinds of networking tools. This laboratory is well resourced with Windows and Linux Servers, Mikrotic OS, Cables (UTP, STP, Optical fiber, DTE-DCE etc.), access points, GPS, connector, crimpling tools, cable tester, NIC, RJ45 connectors, routers, switches (Layer 2 and Layer 3) , hubs and other networking kits. At first students learn the technical details and analysis using Packet tracer and OPNET software. There are normally three networking environment – Peer to Peer Networking, Client-server networking and Routing. All experiments students can observed by wire line or wireless equipments."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programming Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with Corei7 extreme PCs running with operating systems Windows/Linux and with latest programming, graphics and database software’s. The programming languages and packages include C, C++, Java,C# and so on to support hands on laboratory practices for different computation intensive courses, and also for on-line ACM programming competition. Here, students are taught computer programming languages and database management."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Specialized Practice Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="This laboratory is well equipped with Corei7 extreme PCs running with operating systems Windows/Linux and with latest programming, graphics and database software’s where IUBAT CSE students can do extensive practice upon their interest and need."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Hardware Laboratory"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Computer Hardware Laboratory: This laboratory is well equipped with computer and computation devices hardware.  The IUBAT CSE students are doing experiments on Micro processors, memories (RAM, ROM), motherboards (integrated and Non_intigrated), different add-on cards, and other peripherals like printers, plotters and the scanners. The students are trained for the assembly and disassembly of PCs."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#002366"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/btn20"
+                    android:layout_width="wrap_content"
+                    android:background="#002366"
+                    android:textColor="#FFD700"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:layout_height="wrap_content"
+                    android:text="Laboratories" />
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#002366"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textColor="#FFD700"
+                    android:text="Career \nProspects" />
+
+                <Button
+                    android:id="@+id/btn22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#002366"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textColor="#FFD700"
+                    android:text="Tuition \nand Fees" />
+
+                <Button
+                    android:id="@+id/btn23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#002366"
+                    android:gravity="center"
+                    android:textSize="10sp"
+                    android:textColor="#FFD700"
+                    android:text="Student \nSociety" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="#002366"
+                android:text="IUBAT"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="#002366"
+                android:text="IUBAT— International University of Business Agriculture and Technology"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:background="#002366"
+                android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+

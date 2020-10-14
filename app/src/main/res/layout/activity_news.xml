@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent"
+    tools:context=".NewsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/computerlab"
+            android:gravity="bottom"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="bottom"
+                android:text="NEWS"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="CSE News"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/crowd"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="Seminar on Artificial \nIntelligence and Machine \nLearning"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The second session was organized by IUBAT CSE Robotics Club on Artificial Intelligence and Machine Learning. Mr Hafizul Imran, the Founder and Chairman of Bangladesh Robotics Foundation, gave a presentation on this topic and discussed various issues related to robotics, artificial intelligence and machine learning. A quiz test was conducted at the end of this session and prizes were awarded to the winners."/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#002366"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/computerlab"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn27"
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="IUBAT holds NCPC – 2018"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The second session was organized by IUBAT CSE Robotics Club on “Artificial Intelligence and Machine Learning.” Mr Hafizul Imran, the Founder and Chairman of Bangladesh Robotics Foundation, gave a presentation on this topic and discussed various issues related to robotics, artificial intelligence and machine learning. A quiz test was conducted at the end of this session and prizes were awarded to the winners."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prior to the contest, a press conference was held on August 1, 2018, at IUBAT campus for discussing the upcoming NCPC – 2018. The event was attended by the Vice-Chancellor of IUBAT Prof Dr Abdur Rab, the Dean of College of Engineering and Technology Prof Dr Monirul Islam, the chair of CSE department Prof Dr Md Abdul Haque and the coordinator of CSE department Prof Dr Utpal Kanti Das. About 30 members of print and electronic media were present at the press conference."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The main contest was held from 9 am to 2 pm on August 4. All 149 registered teams participated in this competition. The prize giving and closing ceremony started at 4:30 pm with a welcoming address by the Dean of College of Engineering and Technology of IUBAT Prof Dr Monirul Islam. It was followed by speeches of Mr Ahmed Fahad, Vice-President of Pathao Ltd.; Prof Dr Abul L Haque; Professor Dr Phalguni Gupata, the Chief Guest and Professor Dr Mohammad Kaykobad. Mr Hasnain Heickal spoke on behalf of the judges of the programming contest. The Vice-Chancellor of IUBAT Prof Dr Abdur Rab made the closing remarks."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#002366"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:background="#FFFFFF"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/csefootball"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn29"
+                android:layout_width="wrap_content"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:text="ICFL- Intra CSE Football League \n2019"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:text="IUBAT CSE Department organized ICFL- Intra CSE Football League 2019."
+    android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#002366"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="wrap_content"
+                android:background="#002366"
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                android:text="Laboratories" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Career \nProspects" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Tuition \nand Fees" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Student \nSociety" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT— International University of Business Agriculture and Technology"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

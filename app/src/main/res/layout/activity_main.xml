@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#002366"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="45dp"
+                    android:background="@drawable/buttonborder"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="News" />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="74dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Research" />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Events" />
+
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Programs" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Curriculum" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:baselineAligned="false">
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Admission" />
+
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:text="Student" />
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Faculty" />
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Alumni" />
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonborder"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:text="Log In" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:background="#002366"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/computerlab" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Department of"
+                android:textColor="#FFD700"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="2dp"
+                android:text="Computer Science and Engineering"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="46 "
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:text=" FACULTIES"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/btn11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text=" FIND OUR FACULTIES >"
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="1500 "
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:text=" STUDENTS"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/btn12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text=" DISCOVER NOW >"
+                        android:textSize="8dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="8 "
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/holo_orange_dark"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:text=" LABORATORIES"
+                        android:textSize="12dp" />
+
+                    <Button
+                        android:id="@+id/btn13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:background="#FFFFFF"
+                        android:gravity="left"
+                        android:text=" FOR MORE >"
+                        android:textSize="8dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mission"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#002366"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To provide excellent education with knowledge and required skills those are necessary for the students to succeed in the highly competitive local, regional and global ICT markets."
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To advance knowledge in CSE including theoretical, experimental, and applied computer science and engineering through nationally and internationally recognized research by faculty and students; and"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To provide service to the University, the community, and the profession as well as support society by participating in and encouraging information and technology transfer."
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vision"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To achieve excellence in teaching, research and training for human resources development to meet the challenges of ICT sector at home and abroad."
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Objectives"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The objectives of the program are to:"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> produce marketable graduates and entrepreneurs"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> make students efficient in conducting extensive research in diverse fields of Computer Science and Engineering"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> inculcate professional and ethical values in the students"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="->develop interpersonal and communication skills in the students"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#002366"
+                    android:text="THE IUBAT CSE"
+                    android:textColor="#FFD700"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#002366"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Department of Computer Science and Engineeringwas established on January 31, 1992, as one of the pioneering departments of IUBAT, keeping in mind the rapid and widespread use of computers and information technology in all sectors of economy both at home and abroad for which highly trained computer specialists were required."
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:text="Read more...>"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Why IUBAT CSE"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The most important aspect of IUBAT CSE is solving problems which are essential skill for life. Students study the analysis, design, development and maintenance of software, systems and hardware used to solve problems in a variety of business, scientific and social contexts. Because computers solve problems to serve human, there is a significant human side to computer science as well."
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:text="Read more...>"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Achievements"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#002366"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The IUBAT CSE has an outstanding track record of accomplishments. The department has developed University Automation System, University Website, Employee Attendance System and so on. The department is pioneer of arranging inter polytechnic institutes programming contest in the country and the department has successfully arranged NCPC 2018."
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:text="Read more...>"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="8dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Prospective Students"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="#002366"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The promise: academic excellence and research facilities builds a tradition of excellence and pride for their influence and impact. The outcome: knowledge, skills, hands-on experience and Professionalism for become job market leader. The campus: the green and beautiful campus to pursue your academic career."
+                    android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btn17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"
+                    android:background="#FFFFFF"
+                    android:gravity="left"
+                    android:text="Read more...>"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textSize="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Faculty Members"
+                        android:background="#002366"
+                        android:textColor="#FFD700"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <LinearLayout
+                                android:layout_width="120dp"
+                                android:layout_height="wrap_content"
+                                android:baselineAligned="false"
+                                android:gravity="center"
+                                android:background="#FFFFFF"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/ahaqursir" />
+
+                                <Button
+                                    android:id="@+id/btnahaquesir"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="20dp"
+                                    android:background="#FFFFFF"
+                                    android:text="Prof Dr Md Abdul Haque"
+                                    android:textColor="@android:color/holo_blue_dark"
+                                    android:textSize="5dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Chair and Professor"
+                                    android:textColor="#000000"
+                                    android:textSize="8dp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:background="#FFFFFF"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ukdsir" />
+
+                            <Button
+                                android:id="@+id/btnukdsir"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:background="#FFFFFF"
+                                android:text="Prof Dr Utpal Kanti Das"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Professor and Coordinator"
+                                android:textColor="#000000"
+                                android:textSize="8dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:baselineAligned="false"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ekhaquesir" />
+
+                            <Button
+                                android:id="@+id/btnehtsmhqsir"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:background="#FFFFFF"
+                                android:text="Prof Dr Ehteshamul Haque"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="Professor"
+                                android:textColor="#000000"
+                                android:textSize="8dp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnf18"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="#002366 "
+                        android:layout_gravity="center"
+                        android:text="See All Faculty Members"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="FACILITIES"
+                                android:background="#002366"
+                                android:textColor="#FFD700"
+                                android:textSize="20dp"
+                                android:textStyle="bold" />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal"></LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IT SERVICES"
+                                android:textColor="#000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="3dp"
+                                android:background="#002366"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IUBAT CSE aims to ensure that all of the IT services are accessible to all the CSE students. There are a number of services and assistive software packages that can help students during his/her academic life at IUBAT. IUBAT CSE student can also use free Wi-Fi, free programming training, Free training to be IT entrepreneur and email services."
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="The Learning Hub"
+                                android:textColor="#000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="3dp"
+                                android:background="#002366"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="The Learning Hub offers free academic support services to currently enrolled IUBAT CSE students. Through a peer tutoring program, The Hub offers one-to-one appointments—in Programming, English, Math, Academic and Professional Skills. IUBAT CSE invites students to visit and receive help from students like them and caring faculty in a supportive learning environment."
+                                android:textColor="#000000" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="LAB FACILITIES"
+                                android:textColor="#000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="3dp"
+                                android:background="#002366"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                            </LinearLayout>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="IUBAT CSE intensively laboratory oriented. IUBAT CSE believes without having any hands-on experience a student cannot learn the subject-matter. Keeping this in mind, from the very beginning, IUBAT CSE has established rich laboratories. As IUBAT has no budget limit for develop and improve laboratories, each and every semester IUBAT CSE is upgrading and improving laboratories."
+                                android:textColor="#000000" />
+
+                            <Button
+                                android:id="@+id/btn19"
+                                android:layout_width="wrap_content"
+                                android:layout_height="15dp"
+                                android:background="#FFFFFF"
+                                android:text="Read more...>"
+                                android:textColor="@android:color/holo_blue_dark"
+                                android:textSize="8dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+                            </LinearLayout>
+                            <ImageView
+                                android:id="@+id/imageView1"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/network" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="3dp"
+                                android:background="#FFD700"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="35dp"
+                                android:background="#002366"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:baselineAligned="false">
+
+                                <Button
+                                    android:id="@+id/btn20"
+                                    android:layout_width="wrap_content"
+                                    android:background="#002366"
+                                    android:textColor="#FFD700"
+                                    android:gravity="center"
+                                    android:textSize="10sp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Laboratories" />
+
+                                <Button
+                                    android:id="@+id/btn21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#002366"
+                                    android:gravity="center"
+                                    android:textSize="10sp"
+                                    android:textColor="#FFD700"
+                                    android:text="Career \nProspects" />
+
+                                <Button
+                                    android:id="@+id/btn22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#002366"
+                                    android:gravity="center"
+                                    android:textSize="10sp"
+                                    android:textColor="#FFD700"
+                                    android:text="Tuition \nand Fees" />
+
+                                <Button
+                                    android:id="@+id/btn23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="#002366"
+                                    android:gravity="center"
+                                    android:textSize="10sp"
+                                    android:textColor="#FFD700"
+                                    android:text="Student \nSociety" />
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:gravity="center"
+                                android:background="#002366"
+                                android:text="IUBAT"
+                                android:textColor="#FFFFFF"
+                                android:textSize="30dp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:gravity="center"
+                                android:background="#002366"
+                                android:text="IUBAT— International University of Business Agriculture and Technology"
+                                android:textColor="#FFFFFF"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center"
+                                android:background="#002366"
+                                android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+                                android:textColor="#FFFFFF"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

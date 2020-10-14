@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/computerlab"
+            android:gravity="bottom"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="bottom"
+                android:text="FACULTY"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center_horizontal"
+                android:background="#800000"
+                android:orientation="horizontal">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Faculty Members"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#002366"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:contentDescription="ahaque"
+                            android:src="@drawable/ahaqursir" />
+
+                        <Button
+                            android:id="@+id/btnahaquesir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Prof Dr Md Abdul Haque"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Chair and Professor"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ukdsir" />
+
+                    <Button
+                        android:id="@+id/btnukdsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Prof Dr Utpal Kanti Das"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Professor and Coordinator"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ekhaquesir" />
+
+                    <Button
+                        android:id="@+id/btnehtsmhqsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Prof Dr Ehteshamul Haque"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Professor"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/abhijitsir" />
+
+                        <Button
+                            android:id="@+id/btnabhijit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Dr Abhijit Saha"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Professor"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/shamimakhter" />
+
+                    <Button
+                        android:id="@+id/btnshamimakhter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Dr Md Shamim Akhter "
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Professor"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/alamgirbhuyan" />
+
+                    <Button
+                        android:id="@+id/btnalamgirbhuyan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Bhuyan Md Alamgir"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Associate Professor and System Administrator"
+                        android:textColor="#000000"
+                        android:textSize="6dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/choyon" />
+
+                        <Button
+                            android:id="@+id/btnchayonsir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Dr Hasibur Rashid Chayon"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Associate Professor"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/humayunkabirbiswas" />
+
+                    <Button
+                        android:id="@+id/bthkbsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Mr.Md.Humayun Kabir Biswas"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Assistant Professor"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/krishnadas" />
+
+                    <Button
+                        android:id="@+id/btnkdsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Krishna Das"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Assistant Professor"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/saidurrahman" />
+
+                        <Button
+                            android:id="@+id/btnsaidursir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Saidur Rahman"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Senior Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/forkankarimmajumder" />
+
+                    <Button
+                        android:id="@+id/btnforkan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Fourcan Karim Mazumder"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Senior Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rashedulislamrana" />
+
+                    <Button
+                        android:id="@+id/btnranasir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Rashedul Islam"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Senior Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/arifaturrahman" />
+
+                        <Button
+                            android:id="@+id/btnarifamam"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Arifa Tur Rahman"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Senior Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ayeshakhatunn" />
+
+                    <Button
+                        android:id="@+id/btnayesha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Ms.Ayesha Khatun"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/alamgirhossain" />
+
+                    <Button
+                        android:id="@+id/btnalomgirhossain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Md. Alomgir Hossain"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Senior Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/sajidsahriar" />
+
+                        <Button
+                            android:id="@+id/btnsajidsir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Mohammad Sajid Shahriar"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/robayaroma" />
+
+                    <Button
+                        android:id="@+id/btnroma"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Rubayea Ferdows"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/rakibulhasanrashed" />
+
+                    <Button
+                        android:id="@+id/btnrakibsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="M M Rakibul Hasan "
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/cameliasinthia" />
+
+                        <Button
+                            android:id="@+id/btncamelia"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Camelia Sinthia "
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sahinuralam" />
+
+                    <Button
+                        android:id="@+id/btnsahinsir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Shahinur Alam"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/toyereferdous" />
+
+                    <Button
+                        android:id="@+id/btntoyeer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Toyeer-E-Ferdous"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/mortuzahossain" />
+
+                        <Button
+                            android:id="@+id/btnmortuza"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Md Mortuza Hossain "
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/aminurnahar" />
+
+                    <Button
+                        android:id="@+id/btnaminur"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Aminun Nahar"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/mahibulibnemomin" />
+
+                    <Button
+                        android:id="@+id/btnmomin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Mahibul Abdullah Ibne Momin"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/sakibulislam" />
+
+                        <Button
+                            android:id="@+id/btnsakib"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Md.Sakibul Islam"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/aditisarker" />
+
+                    <Button
+                        android:id="@+id/btnaditi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Aditi Sarker"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tanzinasultanabithi" />
+
+                    <Button
+                        android:id="@+id/btnbithii"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Tanzina Tasnim Bithi"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
+                        android:baselineAligned="false"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/nusrattabassum" />
+
+                        <Button
+                            android:id="@+id/btnnusrat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:background="#FFFFFF"
+                            android:text="Nusrath Tabassum"
+                            android:textColor="@android:color/holo_blue_dark"
+                            android:textSize="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Lecturer"
+                            android:textColor="#000000"
+                            android:textSize="8dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFFFFF"
+                    android:baselineAligned="false"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/sadikaislamsneha" />
+
+                    <Button
+                        android:id="@+id/btnsneha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:background="#FFFFFF"
+                        android:text="Sadika Islam Sneha"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:textSize="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textColor="#000000"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#002366"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="wrap_content"
+                android:background="#002366"
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                android:text="Laboratories" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Career Prospects" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Tuition and Fees" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Student Society" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT— International University of Business Agriculture and Technology"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cselogo"
+        android:label="IUBAT-CSE"
+        android:roundIcon="@mipmap/cselogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CareerActivity"
+            android:label="Career Prospects"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".SocietyActivity"
+            android:label="Student Society-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LaboratoriesActivity"
+            android:label="Laboratories-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Log IN-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AlumniActivity"
+            android:label="Alumni-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FacultyActivity"
+            android:label="Faculty-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".StudentActivity"
+            android:label="Student-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdmissionActivity"
+            android:label="Admission-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CurriculumActivity"
+            android:label="Curriculum-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProgramActivity"
+            android:label="Program-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EventActivity"
+            android:label="Events-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ResearchActivity"
+            android:label="Research-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NewsActivity"
+            android:label="News-CSE"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

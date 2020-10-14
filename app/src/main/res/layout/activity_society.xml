@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SocietyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/computerlab"
+            android:gravity="bottom"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="bottom"
+                android:text="STUDENT \nSOCIETY"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IUBAT Information Technology Society (IITS)"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="#002366"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/crowd"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:text="The fag end of 20th century has given birth to Information era as a logical sequence to the Technological era. Computer technology has enhanced information processing and communicating functions drastically. IT does not only refer to usage of computers for information processing, rather, it includes any scientific method applied in order to attain a higher and more accurate information processing, gathering and communicating ability."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="IUBAT Information Technology Society (IITS) is a place where students or people from all walks of life, particularly from IUBAT family, can nourish their ability to cope with the Information Technology and getting up to date by acquiring the latest IT world news and views. The society strives to create a path for the students which will lead them to a successful career. Through various colorful activities the society provides better learning environment for the students. IITS helps the students to understand the importance of teamwork, leadership ability, time management and discipline."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="The activities of IITS range from academic research, courses, and seminars to entertainment. Among the recent few events of IITS, are courses organized answering different needs of IUBAT students. These included courses on SPSS, Visual Basic, Internet and Web Programming for the university students and computer courses for freshmen. IITS also organized seminars which included renowned speakers from home and abroad, and topics of major concerns and research, like the effect of E-commerce on Bangladesh and the rest of world. Courses on Basic Internet browsing and MS-Office were conducted for novice users. A session on business presentation was conducted specially for the business students. Courses on C, C++, JAVA, Visual Basic, My SQL, PHP languages and Computer Networks were conducted throughout the semester to enrich practical knowledge of the students. These classes were taught by the senior students, faculties and IT professionals. A IT fair was organized which gained great response and acceptance from the leading computer and IT related firms of the country, with many of them offering major discounts on their products and services for the IT Society members. IUBAT IT Society publishes IT Magazine where the students get the chance to submit their articles. The magazine contains articles on new innovations, reviews and previews on software and hardware products, tutorials, tips and tricks, trivia, computer games etc. IITS also takes quizzes to identify the IT enthusiasts among the students throughout the university. Time to time IITS organizes campaigns on Open Source Software in different educational institutions which includes seminars on career development, quiz competitions and workshops on various subjects i.e. Web Development."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="IUBAT IT Society strongly believes in enjoying education. Thus, at times, the society takes the time out to make students enjoy an entertainment package, which includes movie shows on big screen and computer game competitions. Members of the IITS are primarily the students of the Computer Science and Engineering Department of IUBAT. The society is guided by a group of faculties who are the advisors of the society. Their suggestions are followed by the executive committee of IITS.  The selection of the executive committee and their activities follow the rules and regulations defined by the constitution of the society. Within its span of existence, IT Society has already been established as a well-recognized organization that hones up IT skills and brings latest IT related news, views and products to its members. Each year IITS organize Inter University Programming Contest, Intra University Programming Contest, Inter University Gaming Contest, Intra University Gaming Contest, Math Olympiad, ICFL- Intra CSE football league and different cultural and social programs. IITS has some wings like- Academic, Finance, Cultural, Sports, Event, student Relation, Publication, IITS Programming Club, Math Club, and Robotics Club. They are organizing programming, math and especially robotics competition every year."/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#002366"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:baselineAligned="false">
+
+            <Button
+                android:id="@+id/btn20"
+                android:layout_width="wrap_content"
+                android:background="#002366"
+                android:textColor="#FFD700"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_height="wrap_content"
+                android:text="Laboratories" />
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Career \nProspects" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Tuition \nand Fees" />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#002366"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="#FFD700"
+                android:text="Student \nSociety" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="IUBAT— International University of Business Agriculture and Technology"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="#002366"
+            android:text="4 Embankment Drive Road,Sector-10, Uttara Model Town, Dhaka-1230."
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
